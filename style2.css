@@ -24,6 +24,8 @@ background-color: rgba(102, 153, 141, 0.55);
 	color: #333;
 	cursor: default;
 	margin: 15px 0 3px 0;
+	padding: 10px 20px;
+
 }
 #contactForm input[type="text"], #contactForm input[type="email"], #contactForm textarea {
 	padding: 8px;
