@@ -1,0 +1,38 @@
+.select_person {
+    display: block;
+	min-width: 7.5rem;
+	height: 2.75rem;
+	line-height: 2.75rem;
+	padding: 0 1.25rem 0 1.45rem;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+	font-size: 0.8rem;
+    border: 0;
+    border-radius: 0px;
+    -webkit-appearance: none;
+    background: url(../images/down-arrow.png) no-repeat 254px 12px;
+
+}
+
+
+
+.select_person option {
+    -moz-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+    -webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+    -ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgba(255, 255, 255, 0.175);
+    background-color: #222324;
+    min-width: 7.5rem;
+    height: 2.75rem;
+    border-radius:0px;
+}
+.select_person:hover {
+	background-color: rgba(255, 255, 255, 0.175);
+}
+.select_option:hover {
+    border-bottom-color: transparent;
+    
+}

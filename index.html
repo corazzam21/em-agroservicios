@@ -7,6 +7,7 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="assets/css/style.css" />
 	<noscript>
 		<link rel="stylesheet" href="assets/css/noscript.css" />
 	</noscript>
@@ -23,7 +24,9 @@
 		<!-- Header -->
 		<header id="header">
 			<div class="logo">
-				<span class="fas fa-tractor fa-2x" href="images/favicon.ico"></span>
+
+				<img class="" src="images/logo final.png" width="80%" height="auto"
+					style="vertical-align:middle;margin:0px 0px">
 			</div>
 			<div class="content">
 				<div class="inner">
@@ -38,7 +41,16 @@
 					<li><a href="#intro">Intro</a></li>
 					<li><a href="#work">Vision</a></li>
 					<li><a href="#about">Mision</a></li>
-					<li><a href="#servicios"> Servicios</a></li>
+					
+					<li><select class="select_person" name="select" onchange="location = this.value;">
+
+							<option selected hidden>Servicios</option>
+							<option class="select_option" value="#servicios" >Siembra</option>
+							<option class="select_option" value="value2" >Value 2</option>
+							<option class="select_option" value="value3">Value 3</option>
+
+						</select>
+					</li>
 					<li><a href="#contact">Contacto</a></li>
 					<!--<li><a href="#elements">Elements</a></li>-->
 				</ul>
