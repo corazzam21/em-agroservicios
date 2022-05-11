@@ -1749,7 +1749,7 @@ body.is-preload #header .content .inner {
 	transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
 	width: 100%;
 	max-width: 100%;
-	margin-top: 2rem;
+	margin-top: 6rem;
 	text-align: center;
 }
 
@@ -1877,9 +1877,10 @@ body.is-preload #footer {
 
 .counter {
     background-color: transparent;
-    padding: 20px 0;
+    
     border-radius: 5px;
-	margin-left: auto;
+	margin-left: 10px;
+	text-align: center;
 }
 
 .count-title {
@@ -1891,7 +1892,7 @@ body.is-preload #footer {
 }
 
 .count-text {
-    font-size: 10px;
+    font-size: 20px;
     font-weight: normal;
     margin-top: 10px;
     margin-bottom: 0;
@@ -1903,4 +1904,5 @@ body.is-preload #footer {
     float: none;
     display: table;
     color: #508d48;
+	align: center;
 }
